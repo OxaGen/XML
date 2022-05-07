@@ -1,0 +1,16 @@
+ <?xml version="1.0"?>
+<BUG_REPORT>
+  <title> Company name has a typo on the main page </title>
+  <type> Bug </type>
+  <priority> High </priority>
+  <severity> Low </severity>
+  <labels> GUI</labels>
+  <environment>Chrome.Версия 100.0.4896.127 (Official Build),64-бit, screen resolution 1920x1080</environment> 
+  <description> Company name has a typo on the main page -"Ctossfit"</description>
+  <steps_to_reproduce> 1. Open main page 2. Check the header words </steps_to_reproduce>
+  <result>
+    <expected_result> Header`s name is "Crossfit"</expected_result>
+    <actual_result> Header`s name is "Ctossfit" </actual_result>
+  <result>
+    <attachment>Header screen</attachment>
+</BUG_REPORT>
